@@ -77,3 +77,14 @@ def numfunc(n):
     return abs(n-50)
 numlist.sort(key=numfunc)
 print(numlist)
+
+
+#copy list
+list1=[1,2,3]
+# list2=list1.copy()
+# list2=list1
+list2=list(list1)
+list1.append(4)
+print(list1)
+print(list2)
+

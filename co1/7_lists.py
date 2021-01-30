@@ -34,8 +34,7 @@ list2=list()
 sum1=0
 sum2=0
 
-# takeInput(list1);
-# takeInput(list2);
+
 #Inputing values into the list
 limit = int(input("Enter the limit:"))
 for x in range(limit):

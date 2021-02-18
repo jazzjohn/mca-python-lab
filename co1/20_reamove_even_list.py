@@ -1,15 +1,7 @@
-list=[]
-List2=[]
-
-limit=int(input("Enter the limit:"))
-for i in range(limit):
-    list.append(int(input("Enter a number:")))
-print("The entered list is:",list)
-
-List2.extend(list)
-
-for i in list:
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(list1)
+for i in list1:
     if i % 2 == 0:
-        List2.remove(i)
+        list1.remove(i)
 
-print(" list after removing even numers is:",List2)
+print(list1)

@@ -1,2 +1,3 @@
 firstName=['johnson','pradeep','ashokan','anand','viswanath']
-print(firstName.count())
+for i in firstName:
+    print("no of occurance of a in",i,"is",i.count('a'))

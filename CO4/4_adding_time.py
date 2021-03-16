@@ -16,10 +16,17 @@ class Time:
         if minute > 60:
             hour += int(minute / 60)
             minute = minute % 60
-        time = "{0} Hours:{1} minutes:{2} seconds".format(hour,minute,second)
+        time = "{0} Hours: {1} minutes: {2} seconds".format(hour, minute, second)
         return time
 
 
-t1 = Time(7, 55, 35)
-t2 = Time(4, 51, 51)
-print("Sum of time:", t1 + t2)
+h1 = int(input("Enter the Hours of first TIME \t"))
+m1 = int(input("Enter the Minutes of first TIME \t"))
+s1 = int(input("Enter the Seconds of first TIME \t"))
+
+h2 = int(input("Enter the Hours of second TIME\t"))
+m2 = int(input("Enter the Minutes of second TIME\t"))
+s2 = int(input("Enter the Seconds of second TIME\t"))
+time1 = Time(h1, m1, s1)
+time2 = Time(h2, m2, s2)
+print("Sum of time:", time1+time2)

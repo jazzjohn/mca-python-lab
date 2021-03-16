@@ -12,9 +12,16 @@ class Rectangle:
         return self.area() < other.area()
 
 
-r1 = Rectangle(4, 5)
-r2 = Rectangle(6, 3)
-if r1 < r2:
-    print("Area of r1 is smaller")
+l1 = int(input("Enter the length of first rectangle"))
+w1 = int(input("Enter the width of second rectangle"))
+rectangle1 = (l1, w1)
+l2 = int(input("Enter the length of first rectangle"))
+w2 = int(input("Enter the width of second rectangle"))
+rectangle2 = (l2, w2)
+# r1 = Rectangle(4, 5)
+# r2 = Rectangle(6, 3)
+if rectangle1 < rectangle2:
+    print("Area of rectangle 1 is smaller")
 else:
-    print("Area of r2 is smaller")
+    print("Area of rectangle 2 is smaller")
+

@@ -26,10 +26,10 @@ else:
     print("Two lists are of different length\n")
 
 #printing sum of lists
-sum=sum(list1)
-print(sum)
-sum=sum(list2)
-print(sum)
+sum1 = sum(list1)
+print(sum1)
+sum2 = sum(list2)
+print(sum2)
 
 #check wether sum of two lists are same
 if(sum1==sum2):
@@ -38,19 +38,11 @@ else:
     print("sum of elements in 2 lists are not same\n")
 
 #chech whether same value occur in the lists
-f = 0
 for x in list1:
-    for y in list2:
-        if (y == x):
-            f = 1
-            break
-    if (f == 1):
+    if x in list2:
+        print("Two lists have same value")
         break
-if (f == 0):
-    print("The two lists have no same values\n")
 else:
-    print("The two lists have same values\n")
-
-
+    print("Two lists haven't same value")
 
 

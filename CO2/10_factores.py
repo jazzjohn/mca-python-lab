@@ -1,4 +1,4 @@
-#Generate all factores of a number
+# Generate all factores of a number
 
 num=int(input("Enter a number:"))
 print("factors of number",num,"is\n")

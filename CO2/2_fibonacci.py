@@ -1,3 +1,5 @@
+# Generate fibonacci series of n numbers
+
 first=0
 second=1
 limit=int(input("Enter the limit:"))

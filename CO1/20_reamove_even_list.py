@@ -1,3 +1,5 @@
+# FRom a list of integers , create a list removing even numbers
+
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(list1)
 for i in list1:

@@ -1,7 +1,5 @@
-str=input("Enter a string:")
-str_list=list(str)
-temp=str_list[0]
-str_list[0]=str_list[-1]
-str_list[-1]=temp
-print("The the string after exchange first and last charecter:","".join(str_list))
+# Create a string from given string where first and last charecters exchanged
 
+str = input("Enter a string:")
+new_str = str[-1] + str[1:-1] + str[0]
+print("the string after exchange first and last charecters: ", new_str.strip())

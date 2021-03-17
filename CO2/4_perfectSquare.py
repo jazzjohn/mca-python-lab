@@ -13,7 +13,7 @@ for i in range(start,end+1):
             flag=1
             break
         num=int(num/10)
-    if flag==0 and int(math.sqrt(i)+0.5)**2 == i:
+    if flag==0 and math.sqrt(i) % 1 == 0:
         perfect.append(i)
 
 print("The list of perfect square numbers are:",perfect)

@@ -2,5 +2,4 @@
 
 radius = int(input("Enter the radius of the circle:"))
 pie = 3.14
-area = pie * radius * radius
-print("Area of the circle:", area)
+print("Area of the circle:", pie * radius * radius)

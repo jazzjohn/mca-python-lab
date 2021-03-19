@@ -1,13 +1,11 @@
 # Generate fibonacci series of n numbers
 
-first=0
-second=1
-limit=int(input("Enter the limit:"))
-print("The fibonacci series upto ",limit," terms are:")
-print(first)
-print(second)
-for i in range(limit-2):
-    third=first+second
-    first=second
-    second=third
-    print(third)
+def fibonacci(a, b, n):
+    for i in range(n):
+        print(a)
+        a, b = b, a + b
+
+
+limit = int(input("Enter the number of terms: "))
+print("Fibonacci numbers upto ", limit, " terms are: ")
+fibonacci(0, 1, limit)
